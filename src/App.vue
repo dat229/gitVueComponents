@@ -1,15 +1,17 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <InputD />
+  <Dropdown />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import InputD from './components/InputD.vue'
+import Dropdown from './components/Dropdown.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    InputD, Dropdown, 
+  },
 }
 </script>
 

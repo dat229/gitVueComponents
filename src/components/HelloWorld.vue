@@ -1,12 +1,12 @@
 <template>
   <div class="hello">
-    Giang Văn Đạt
+    Đỗ Quang Duy
     <header-home />
   </div>
 </template>
 
 <script>
-import HeaderHome from './HeaderPage.vue'
+import HeaderHome from './InputD.vue'
 
 export default {
   name: 'HelloWorld',
