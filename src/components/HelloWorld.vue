@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    Giang Văn Đạt
     <header-home />
   </div>
 </template>
@@ -10,6 +9,12 @@ import HeaderHome from './HeaderPage.vue'
 
 export default {
   name: 'HelloWorld',
+
+  data(){
+    return{
+      dat: "Dat"
+    } 
+  },
   props: {
     msg: String
   },

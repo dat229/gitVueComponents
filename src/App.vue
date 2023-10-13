@@ -1,18 +1,20 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Home/>
+  <!-- <hello-world></hello-world> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './pages/Home.vue';
+import 'boxicons'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Home
+  },
 }
 </script>
 
 <style>
-
+  
 </style>
